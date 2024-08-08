@@ -6,6 +6,7 @@
     servers = {
         nixd.enable = true;
         zls.enable = true;
+        zls.package = null;
     };
 
     keymaps.lspBuf = {

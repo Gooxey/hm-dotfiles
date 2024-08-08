@@ -24,6 +24,7 @@
   cmp-buffer.enable = true;
   cmp-path.enable = true;
   cmp-nvim-lsp.enable = true;
+  luasnip.enable = true; # required by cmp
 
   # rust
   rustaceanvim.enable = true;
