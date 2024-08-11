@@ -7,14 +7,9 @@
     fd
 
     # required for serveral icons
-    nerdfonts
+    # used way too much ram
+    # nerdfonts
   ];
-
-  # nixvim as default editor
-  programs.bash = {
-      enable = true;
-      sessionVariables.EDITOR = "nvim";
-  };
 
   programs.nixvim = import ./config;
 }

@@ -1,9 +1,9 @@
 {
     enable = true;
     keymaps = {
-      "<leader>ff" = "find_files";
-      "<leader>fs" = "live_grep";
-      "<leader>fb" = "buffers";
+      "<leader><leader>" = "find_files";
+      "<leader>lg" = "live_grep";
+      "<leader>b" = "buffers";
       "<C-p>" = "git_files";
     };
 }
