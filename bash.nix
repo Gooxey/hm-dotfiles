@@ -17,6 +17,7 @@
 
     sessionVariables = {
       EDITOR = "nvim";
+      PAGER = "nvim +Man!";
     };
     
     profileExtra = ''
