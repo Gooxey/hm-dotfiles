@@ -53,41 +53,4 @@
     key = "<leader>q";
     action = "<cmd>q<CR>";
   }
-  
-  # umlaute
-  {
-    key = "<C-e>a";
-    action = "ä";
-    mode = "i";
-  }
-  {
-    key = "<C-e>A";
-    action = "Ä";
-    mode = "i";
-  }
-  {
-    key = "<C-e>o";
-    action = "ö";
-    mode = "i";
-  }
-  {
-    key = "<C-e>O";
-    action = "Ö";
-    mode = "i";
-  }
-  {
-    key = "<C-e>u";
-    action = "ü";
-    mode = "i";
-  }
-  {
-    key = "<C-e>U";
-    action = "Ü";
-    mode = "i";
-  }
-  {
-    key = "<C-e>s";
-    action = "ß";
-    mode = "i";
-  }
 ]
