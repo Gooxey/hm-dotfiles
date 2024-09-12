@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   home.packages = with pkgs; [
     eza
   ];
@@ -9,17 +10,17 @@
     enable = true;
 
     shellAliases = {
-        vi = "nvim .";
-        ll = "eza -l";
-        la = "eza -la";
-        ls = "eza";
+      vi = "nvim .";
+      ll = "eza -l";
+      la = "eza -la";
+      ls = "eza";
     };
 
     sessionVariables = {
       EDITOR = "nvim";
       PAGER = "nvim +Man!";
     };
-    
+
     profileExtra = ''
       # added by Nix installer
       if [ -e /home/dennis/.nix-profile/etc/profile.d/nix.sh ]; then

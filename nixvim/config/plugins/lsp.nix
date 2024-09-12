@@ -1,21 +1,21 @@
 {
-    enable = true;
-    
-    inlayHints = true;
+  enable = true;
 
-    servers = {
-        nixd.enable = true;
-        zls.enable = true;
-        pyright.enable = true;
-    };
+  inlayHints = true;
 
-    keymaps.lspBuf = {
-        "gD" = "declaration";
-        "gd" = "definition";
-        "gr" = "references";
-        "gs" = "signature_help";
-        "K" = "hover";
-        "<space>rn" = "rename";
-        "<space>a" = "code_action";
-    };
+  servers = {
+    nixd.enable = true;
+    zls.enable = true;
+    pyright.enable = true;
+  };
+
+  keymaps.lspBuf = {
+    "gD" = "declaration";
+    "gd" = "definition";
+    "gr" = "references";
+    "gs" = "signature_help";
+    "K" = "hover";
+    "<space>rn" = "rename";
+    "<space>a" = "code_action";
+  };
 }
