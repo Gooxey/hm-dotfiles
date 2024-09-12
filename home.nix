@@ -1,6 +1,7 @@
 {
   imports = [
     ./nixvim
+    ./emacs
     ./bash.nix
   ];
 

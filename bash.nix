@@ -11,9 +11,11 @@
 
     shellAliases = {
       vi = "nvim .";
+
       ll = "eza -l";
       la = "eza -la";
       ls = "eza";
+      ".." = "cd ..";
     };
 
     sessionVariables = {
@@ -24,7 +26,10 @@
     profileExtra = ''
       # added by Nix installer
       if [ -e /home/dennis/.nix-profile/etc/profile.d/nix.sh ]; then
-        . /home/dennis/.nix-profile/etc/profile.d/nix.sh
+        . $HOME/.nix-profile/etc/profile.d/nix.sh
+      fi
+      if [ -e /home/dennis/.config/doom/bin ]; then
+        . $HOME/.config/doom/bin
       fi
     '';
   };
