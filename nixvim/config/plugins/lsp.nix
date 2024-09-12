@@ -6,7 +6,7 @@
     servers = {
         nixd.enable = true;
         zls.enable = true;
-        zls.package = null;
+        pyright.enable = true;
     };
 
     keymaps.lspBuf = {
