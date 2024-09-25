@@ -3,6 +3,7 @@
     ./nixvim
     ./emacs
     ./bash.nix
+    ./fonts.nix
   ];
 
   # let home manager install and manage itself
