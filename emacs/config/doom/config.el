@@ -28,7 +28,7 @@
 
 ;; projectile
 (setq projectile-auto-discover t)
-(setq projectile-project-search-path '(("~/coding" . 4)))
+(setq projectile-project-search-path '(("~/coding" . 5)))
 ;; zig support
 ;; (projectile-register-project-type 'zig '("build.zig")
 ;;                                   :project-file "build.zig"
