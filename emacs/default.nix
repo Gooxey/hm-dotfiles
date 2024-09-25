@@ -6,6 +6,9 @@
 
   programs.java.enable = true;
   home.packages = with pkgs; [
+    cmake
+    nixfmt-rfc-style
+    shellcheck
     pandoc
 
     # :lang python
