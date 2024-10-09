@@ -24,6 +24,9 @@
     };
 
     profileExtra = ''
+      # disable logging for direnv
+      export DIRENV_LOG_FORMAT=
+
       # added by Nix installer
       if [ -e /home/dennis/.nix-profile/etc/profile.d/nix.sh ]; then
         . $HOME/.nix-profile/etc/profile.d/nix.sh
