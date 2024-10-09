@@ -21,5 +21,6 @@
     "K" = "hover";
     "<space>rn" = "rename";
     "<space>a" = "code_action";
+    "<space>fm" = "format";
   };
 }
