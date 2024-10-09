@@ -22,6 +22,17 @@
     action = "<C-\\><C-n>";
   }
 
+  # previous buffer
+  {
+    key = "<leader>bp";
+    action = "<cmd>bp<CR>";
+  }
+  # next buffer
+  {
+    key = "<leader>bn";
+    action = "<cmd>bn<CR>";
+  }
+
   # pane switching
   {
     key = "<leader>h";
