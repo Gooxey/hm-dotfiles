@@ -7,6 +7,10 @@
     nixd.enable = true;
     zls.enable = true;
     pyright.enable = true;
+
+    # c
+    cmake.enable = true;
+    clangd.enable = true;
   };
 
   keymaps.lspBuf = {

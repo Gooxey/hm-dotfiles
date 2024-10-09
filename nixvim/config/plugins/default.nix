@@ -14,6 +14,7 @@
   todo-comments.enable = true;
   toggleterm.enable = true;
   telescope = import ./telescope.nix;
+  web-devicons.enable = true;
   oil = import ./oil.nix;
   treesitter = import ./treesitter.nix;
   neogit.enable = true;
